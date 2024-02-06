@@ -1,1 +1,21 @@
+.hero-img {
+  background-image: url("../../assets/images/hero-robot.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 50%;
+}
+.hero-container {
+  padding: 0 10%;
+  height: 100vh;
+  background-image: linear-gradient(to top, #5579c3, #ffffff);
+}
+.hero-text {
+  width: 50%;
+}
 
+.hero-text button {
+  height: 50px;
+  width: 50%;
+}

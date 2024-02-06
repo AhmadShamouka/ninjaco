@@ -8,6 +8,7 @@ const Button = ({
   onClick,
   bgColor = "blue-bg",
   textColor = "white-text",
+  logo,
 }) => {
   return (
     <button
@@ -16,6 +17,7 @@ const Button = ({
       onClick={onClick}
     >
       {text}
+      {logo}
     </button>
   );
 };
