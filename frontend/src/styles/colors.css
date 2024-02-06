@@ -1,0 +1,61 @@
+.primary-bg {
+  background-color: #efefef;
+}
+
+.secondary-bg {
+  background-color: #888888;
+}
+
+.black-bg {
+  background-color: black;
+}
+.red-bg {
+  background-color: red;
+}
+.white-bg {
+  background-color: white;
+}
+
+.blue-bg {
+  background-color: #1789c9;
+}
+
+.primary-text {
+  color: #efefef;
+}
+
+.secondary-text {
+  color: #888888;
+}
+
+.black-text {
+  color: black;
+}
+
+.white-text {
+  color: white;
+}
+
+.blue-text {
+  color: #1789c9;
+}
+
+.primary-border {
+  border: 0.5px solid #efefef;
+}
+
+.secondary-border {
+  border: 0.5px solid #888888;
+}
+
+.black-border {
+  border: 0.5px solid black;
+}
+
+.white-border {
+  border: 0.5px solid white;
+}
+
+.blue-border {
+  border: 0.5px solid #0095f6;
+}
