@@ -1,14 +1,15 @@
 import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 
 import "./App.css";
-import BlocklyComponent from "./components/blockly/BlocklyEditor";
+
+import Landing from "./pages/Landing/Landing";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<BlocklyComponent />} />
+          <Route path="/" element={<Landing />} />
         </Routes>
       </BrowserRouter>
     </div>
