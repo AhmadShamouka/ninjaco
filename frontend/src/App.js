@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 
-import "./App.css";
-
+import "./styles/App.css";
+import "./styles/colors.css";
 import Landing from "./pages/Landing/Landing";
 
 function App() {

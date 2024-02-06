@@ -7,7 +7,11 @@ const Landing = () => {
       <section className="hero-container">
         <div className="hero-img">
           <h1>Learn coding and robotics with fun and easy code blocks.</h1>
-          <Button text="Create your first project" />
+          <Button
+            text="Create your first project"
+            bgColor="blue-bg"
+            textColor="white-text"
+          />
         </div>
       </section>
     </div>

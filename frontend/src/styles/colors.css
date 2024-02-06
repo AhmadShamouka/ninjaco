@@ -1,5 +1,5 @@
 .primary-bg {
-  background-color: #efefef;
+  background-color: #f9fdfd;
 }
 
 .secondary-bg {
@@ -9,6 +9,9 @@
 .black-bg {
   background-color: black;
 }
+.orange-bg {
+  background-color: #e5a531;
+}
 .red-bg {
   background-color: red;
 }
@@ -17,7 +20,7 @@
 }
 
 .blue-bg {
-  background-color: #1789c9;
+  background-color: #527bc2;
 }
 
 .primary-text {
@@ -31,13 +34,15 @@
 .black-text {
   color: black;
 }
-
+.orange-text {
+  color: #e5a531;
+}
 .white-text {
   color: white;
 }
 
 .blue-text {
-  color: #1789c9;
+  color: #527bc2;
 }
 
 .primary-border {
