@@ -20,5 +20,14 @@
 
 .hero-text button {
   height: 50px;
-  width: 50%;
+  width: 240px;
+}
+@media screen and (max-width: 768px) {
+  .hero-container {
+    padding: 0;
+    flex-direction: column;
+  }
+  .hero-img {
+    width: 100%;
+  }
 }
