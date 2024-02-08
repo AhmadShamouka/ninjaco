@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../../assets/images/logo-nobg.png";
+import Button from "../button/Button";
+import logo from "../../assets/images/logo.png";
+import {
+  UilBars,
+  UilHome,
+  UilGlobe,
+  UilRocket,
+  UilAt,
+} from "@iconscout/react-unicons";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -11,43 +19,40 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <span
-        className="navbar-toggle"
-        id="js-navbar-toggle"
-        onClick={toggleNavbar}
-      >
-        <i>-</i>
-        <i>-</i>
-        <i>-</i>
-      </span>
-      <img href="#" src={logo} alt="logo" className="logo" />
-      <ul className={`main-nav ${isActive ? "active" : ""}`} id="js-menu">
-        <li>
-          <a href="#" className="nav-links">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#" className="nav-links">
-            Products
-          </a>
-        </li>
-        <li>
-          <a href="#" className="nav-links">
-            About Us
-          </a>
-        </li>
-        <li>
-          <a href="#" className="nav-links">
-            Contact Us
-          </a>
-        </li>
-        <li>
-          <a href="#" className="nav-links">
-            Blog
-          </a>
-        </li>
-      </ul>
+      <div className="navbar-container">
+        <a href="#" className="logo-link">
+          <img src={logo} alt="logo" className="logo" />
+        </a>
+        <div className="navbar-toggle" onClick={toggleNavbar}>
+          <UilBars />
+        </div>
+        <ul className={`navbar-links ${isActive ? "active" : ""}`}>
+          <li>
+            <a href="#" className="nav-link btn-nav color-1 flex center">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#" className="nav-link btn-nav color-1 flex center">
+              About us
+            </a>
+          </li>
+          <li>
+            <a href="#" className="nav-link  btn-nav color-1 flex center">
+              Services
+            </a>
+          </li>
+          <li>
+            <a href="#" className="nav-link btn-nav color-1 flex center">
+              Contact Us
+            </a>
+          </li>
+
+          <li>
+            <Button text="Login" />
+          </li>
+        </ul>
+      </div>
     </nav>
   );
 };

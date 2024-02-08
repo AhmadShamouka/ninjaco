@@ -20,7 +20,7 @@
 
 .hero-text button {
   height: 50px;
-  width: 240px;
+  width: 220px;
 }
 @media screen and (max-width: 768px) {
   .hero-container {
