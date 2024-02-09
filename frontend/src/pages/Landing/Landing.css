@@ -110,3 +110,24 @@
     padding: 0;
   }
 }
+.contact-us {
+  background-color: #527bc2;
+}
+.contact-us-social {
+  width: 60%;
+  padding: 2%;
+  justify-content: space-evenly;
+}
+.contact-us-social img {
+  height: 150px;
+  width: 150px;
+}
+.contact-us-text {
+  text-align: right;
+}
+.contact-us-text h2 {
+  color: white;
+}
+.contact-us-text p {
+  color: rgb(172, 172, 172);
+}

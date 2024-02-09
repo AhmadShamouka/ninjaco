@@ -17,6 +17,8 @@ import robo from "../../assets/images/robotscoding.jpeg";
 import coding from "../../assets/images/coding.jpeg";
 import workshop from "../../assets/images/ll.jpeg";
 import fun from "../../assets/images/blockcoding.png";
+
+import Footer from "../../components/footer/Footer";
 const Landing = () => {
   return (
     <div>
@@ -59,7 +61,6 @@ const Landing = () => {
           </div>
         </div>
       </section>
-
       <section className="about-us flex center">
         <h1 className="blue-text">How We Make a Difference</h1>
         <div className="flex center">
@@ -119,6 +120,7 @@ const Landing = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
