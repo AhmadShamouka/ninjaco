@@ -24,6 +24,10 @@
 .hero-text h1 {
   font-weight: 800;
 }
+.hero-text h4 {
+  margin: 15px 0;
+  color: gray;
+}
 .hero-text button {
   height: 50px;
   width: 220px;
@@ -52,7 +56,7 @@
   fill: #e5a531;
 }
 .hero-info h4 {
-  margin-top: 5px;
+  margin-top: 0px;
   color: gray;
 }
 @media screen and (max-width: 768px) {
@@ -71,13 +75,38 @@
   }
 }
 .about-us {
-  padding: 2%;
+  padding: 0 2%;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-bottom: 30px;
 }
 .about-us h1 {
   font-size: 36px;
   font-weight: bold;
-
   text-align: center;
+  margin: 30px;
+}
+.services {
+  background-color: #e5e5e5;
+  flex-direction: column;
+  padding: 0% 10%;
+}
+.services h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px;
+}
+.services-cards {
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .services-cards {
+    flex-direction: column;
+  }
+  .services {
+    padding: 0;
+  }
 }
