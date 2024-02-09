@@ -70,3 +70,14 @@
     font-size: 12px;
   }
 }
+.about-us {
+  padding: 2%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.about-us h1 {
+  font-size: 36px;
+  font-weight: bold;
+
+  text-align: center;
+}
