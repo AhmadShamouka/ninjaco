@@ -28,22 +28,22 @@ const Navbar = () => {
         </div>
         <ul className={`navbar-links flex center ${isActive ? "active" : ""}`}>
           <li>
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link blue-text">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link blue-text">
               About us
             </a>
           </li>
           <li>
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link blue-text">
               Services
             </a>
           </li>
           <li>
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link blue-text">
               Contact Us
             </a>
           </li>

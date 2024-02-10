@@ -63,7 +63,7 @@ const Landing = () => {
       </section>
       <section className="about-us flex center">
         <h1 className="blue-text">How We Make a Difference</h1>
-        <div className="flex center">
+        <div className="about-us-cards flex center">
           <AboutBlock
             bgColor="blue-bg"
             textColor="white-text"
@@ -90,7 +90,7 @@ const Landing = () => {
       <section className="services flex center">
         <h1 className="blue-text">Our Learning Universe</h1>
         <div className="services-cards flex column">
-          <div className="flex center">
+          <div className="services-card flex center">
             <Card
               title="Interactive Lessons"
               subtxt="Engaging exploration across subjects."
@@ -104,7 +104,7 @@ const Landing = () => {
               imageUrl={coding}
             />
           </div>
-          <div className="flex center">
+          <div className="services-card flex center">
             <Card
               title="Safe and Secure Environment"
               subtxt="Expert guidance and support."

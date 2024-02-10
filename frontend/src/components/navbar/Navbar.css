@@ -26,6 +26,7 @@
   cursor: pointer;
 }
 .navbar-links li a {
+  font-weight: 600;
   text-decoration: none;
 }
 .navbar-links li {

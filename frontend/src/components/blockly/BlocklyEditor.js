@@ -70,7 +70,6 @@ const BlocklyEditor = () => {
   let workspace;
   const handleWorkspaceChange = (newWorkspace) => {
     workspace = newWorkspace;
-
     const code = javascriptGenerator.workspaceToCode(workspace);
     document.getElementById("code-display").innerText = code;
   };
@@ -78,15 +77,17 @@ const BlocklyEditor = () => {
     try {
       const code = javascriptGenerator.workspaceToCode(workspace);
       console.log(code);
+
       localStorage.setItem("workspace-state", code);
+      handleWorkspaceChange();
     } catch (error) {
       console.log(error);
     }
   };
 
   return (
-    <div>
-      <div className="container">
+    <div className="flex center">
+      <div className="container flex center">
         <BlocklyWorkspace
           workspaceDidChange={handleWorkspaceChange}
           className="toolbox-container"
@@ -96,7 +97,7 @@ const BlocklyEditor = () => {
         />
         <button onClick={handleSubmission}>Submit</button>
       </div>
-      <div id="code-display" className="toolbox-containe"></div>
+      <div id="code-display" className="flex center"></div>
     </div>
   );
 };

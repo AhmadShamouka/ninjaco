@@ -8,3 +8,6 @@
   border: none;
   font-weight: bold;
 }
+.base-button:hover {
+  background-color: #e5a531;
+}

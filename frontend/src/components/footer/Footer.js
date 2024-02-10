@@ -10,7 +10,7 @@ import map from "../../assets/images/map.jpeg";
 const Footer = () => {
   return (
     <section className="contact-us flex column">
-      <div className="flex center">
+      <div className="contact-us-container flex center">
         <div className="contact-us-text">
           <h2>LET'S KEEP IN TOUCH</h2>
           <p>
@@ -18,11 +18,15 @@ const Footer = () => {
             inspiration on all things education!
           </p>
         </div>
-        <div className="contact-us-social flex center">
-          <img src={f} />
-          <img src={t} />
-          <img src={l} />
-          <img src={i} />
+        <div className="contact-us-social flex">
+          <div className="social-img flex center">
+            <img src={f} />
+            <img src={t} />
+          </div>
+          <div className="social-img flex center">
+            <img src={l} />
+            <img src={i} />
+          </div>
         </div>
       </div>
       <div className="footer flex center">
@@ -49,7 +53,7 @@ const Footer = () => {
       </div>
       <div className="copyright-container flex center">
         <div className="copyright">
-          <p>Copyright 2045, Domain Name</p>
+          <p>Copyright 2022, NinjaCO</p>
         </div>
         <div className="description">
           <p>

@@ -1,15 +1,21 @@
 .contact-us {
+  padding: 2% 0;
   background-color: #527bc2;
 }
 .contact-us-social {
-  width: 60%;
-  justify-content: space-evenly;
+  width: 40%;
+  justify-content: space-around;
 }
 .contact-us-social img {
   border-radius: 10px;
   border: 2px solid white;
   height: 80px;
   width: 80px;
+}
+.social-img {
+  cursor: pointer;
+  width: 50%;
+  justify-content: space-around;
 }
 .contact-us-text {
   text-align: right;
@@ -27,6 +33,7 @@
   width: 100%;
 }
 .footer {
+  padding: 15px 0;
   color: white;
   justify-content: space-between;
 }
@@ -70,4 +77,51 @@ a {
   color: rgb(172, 172, 172);
   flex-direction: column;
   margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .contact-us-container {
+    text-align: center;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .contact-us {
+    padding: 2% 0;
+    background-color: #527bc2;
+    text-align: center;
+  }
+
+  .contact-us-text {
+    padding: 5%;
+  }
+
+  .contact-us-social {
+    flex-direction: column;
+    width: 40%;
+    padding: 5% 10%;
+  }
+  .social-img {
+    padding: 5%;
+  }
+  .social-img img {
+    margin: 10px;
+  }
+  .footer-text {
+    flex-direction: column;
+  }
+
+  .c-num {
+    align-items: center;
+  }
+
+  .footer-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .map img {
+    width: 100%;
+    height: auto;
+  }
 }
