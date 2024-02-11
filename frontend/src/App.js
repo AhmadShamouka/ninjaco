@@ -10,7 +10,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<BlocklyEditor />} />
+          <Route path="/editor" element={<BlocklyEditor />} />
+          <Route path="/" element={<Landing />} />
         </Routes>
       </BrowserRouter>
     </div>
