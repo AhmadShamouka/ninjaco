@@ -5,10 +5,6 @@
 <!-- Implementation -->
 <img src="./readme/assets/images/title4.svg"/>
 
-
-
-
-
 ### User Screens (web)
 
 | Hero sectopn                             | about-us screen                                  |
@@ -27,6 +23,14 @@ https://github.com/AhmadShamouka/ninjaco/assets/149371711/dcb3b923-9535-4cf3-a94
 
 </td>
 </table>
+
+| Home sectopn                            | Function1 screen                                  |
+| --------------------------------------- | ------------------------------------------------- |
+| ![Home](/Readme/assets/images/Home.png) | ![Function1](/Readme/assets/images/Function1.png) |
+
+| Function2 screen                                  | Change background screen                            |
+| ------------------------------------------------- | --------------------------------------------------- |
+| ![Function2](/Readme/assets/images/function2.png) | ![background](/Readme/assets/images/background.png) |
 
 <!-- How to run -->
 <img src="./readme/assets/images/title6.svg"/>
