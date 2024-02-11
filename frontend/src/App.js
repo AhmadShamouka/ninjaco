@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 import "./styles/App.css";
 import "./styles/colors.css";
 import Landing from "./pages/Landing/Landing";
-import BlocklyEditor from "./components/blockly/BlocklyEditor";
+import BlocklyEditor from "./Blockly/blocklyComponent/BlocklyEditor";
+
 function App() {
   return (
     <div className="App">
